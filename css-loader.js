@@ -21,8 +21,8 @@
 
 			function cssLoaded() {
 		    	
-		    	clearInterval( interval_id );
-		        clearTimeout( timeout_id );
+		    	clearInterval(interval_id);
+		        clearTimeout(timeout_id);
 
 		        if (link.removeEventListener) {
 			    	link.removeEventListener('load', cssLoaded);
@@ -93,7 +93,8 @@
 			var temp = store[key] || null;
 
 			if (temp) {
-				return head.removeChild(store[key]);
+				store[key] = null;
+				return head.removeChild(temp);
 			}
 
 			return null;
