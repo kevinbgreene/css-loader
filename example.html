@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	
+	<meta charset="UTF-8">
+	<title>CSS Loader Example</title>
+
+</head>
+
+<body>
+
+	<!-- load dependencies -->
+	<script src="bower_components/q/q.js"></script>
+
+	<!-- include css-loader -->
+	<script src="css-loader.min.js"></script>
+
+	<script>
+
+		// usage
+		setTimeout(function() {
+
+			cssLoader.load('example.css')
+			.then(function() {
+				alert('loaded');
+			});
+
+		}, 3000);
+
+	</script>
+	
+</body>
+
+</html>

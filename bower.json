@@ -1,0 +1,21 @@
+{
+  "name": "css-loader",
+  "main": "css-loader.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kevinbgreene/css-loader",
+  "authors": [
+    "Kevin Greene <hightimesteddy@gmail.com>"
+  ],
+  "description": "CSS lazy loader",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "q": "~1.0.0"
+  }
+}

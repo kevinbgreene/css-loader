@@ -1,0 +1,25 @@
+{
+  "name": "css-loader",
+  "version": "0.0.0",
+  "description": "CSS lazy loader",
+  "main": "css-loader.js",
+  "dependencies": {
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "~0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinbgreene/css-loader.git"
+  },
+  "author": "Kevin B. Greene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinbgreene/css-loader/issues"
+  },
+  "homepage": "https://github.com/kevinbgreene/css-loader"
+}
